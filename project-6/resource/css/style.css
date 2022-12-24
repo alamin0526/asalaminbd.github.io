@@ -1,0 +1,792 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+html{
+	scroll-behavior: smooth;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box
+}
+body{
+/*
+	font-family: 'Roboto Slab', serif;
+    font-family: 'Open Sans', sans-serif; 
+*/
+}
+.container{
+	width: 1300px;
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0 20px 0 20px;
+	box-sizing: border-box;
+}
+/*---------------------top back buttton-----------------*/
+.top-back-btn a{
+   background: #968c8c82;
+    color: red;
+    padding: 10px 15px;
+    border-radius: 100%;
+    margin: 0;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+/*<!-- -------------------------Top Header menu-------------- -->*/
+.top-heading{
+	background: #eeeeee;
+    padding: 6px 0px 6px 0px;
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+.top-heading-row{
+   /* max-width: 80%;*/
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.first-title{
+	    justify-content: start;
+}
+.second-title .fa-clock-o{
+	display: flex;
+    flex-direction: column-reverse;
+    margin-right: 5px;
+    font-size: 17px;
+}
+.socail-icon{
+	    justify-content: right;
+}
+.socail-icon i{
+
+	margin-right: 17px;
+    font-size: 17px;
+}
+.socail-icon .fa-youtube-square{
+	margin-right: 0px;
+}
+.socail-icon a{
+	color: #000000;
+	transition: 0.5s;
+}
+.socail-icon a:hover{
+	color: #1980e2;
+}
+/*---------------------------Header section---------*/
+.header{
+	
+	height: 238px;
+	width: auto;
+
+}
+.header-row{
+	/*max-width: 80%;*/
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.third-box a{
+	text-decoration: none;
+    color: #000;
+}
+.first-box{
+	    justify-content: start;
+	    padding: 95px 0px 95px 0px;
+}
+.first-box b{
+    font-size: 24px;
+    font-weight: 700;
+    font-family:'Roboto Slab', serif;
+}
+.first-box span{
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+}
+.third-box .number {
+     font-size: 24px;
+     font-weight: 700;
+     font-family:'Roboto Slab', serif;
+    color: red;
+    
+}
+.third-box span{
+     font-size: 18px;
+     font-weight: 400;
+     font-family:'Roboto Slab', serif;
+    color: #000;
+}
+ .third-box{
+ text-align: right;
+ 	 justify-content: end;
+    padding: 95px 0px 95px 0px;
+ }
+.second-box{
+	    padding: 10px 0px 10px 0px;
+        margin-bottom: 5px;
+}
+/*----------------navbar menu---------*/
+.navbar{
+	 display: flex;
+    justify-content: center;
+    background: #000;
+    position: sticky;
+    top: -1px;
+    z-index: 9999;
+    overflow: hidden;
+    width: 100%;
+   
+}
+.navbar-row{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul li{
+     display: inline-block;
+    padding: 15px 26px 15px 26px;
+}
+.menu ul li a{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	transition: 0.5s;
+	align-items: ;
+}
+.menu .active{
+    background: red;
+}
+.btn{
+	align-items: center;
+}
+.navbar ul li:hover{
+	background: red;
+	cursor: pointer;
+
+}
+/*-------------slider-----------------*/
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+ 
+}
+.slider-section{
+	 position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.sliderbtnpev{
+    height: 50px;
+    width: 50px;
+    background: #2f3031;
+    border-radius: 100%;
+    text-align: center;
+    align-items: center;
+    margin-left: 40px;
+    padding: 0px 20px;
+    display: flex;
+    opacity: 0.9;
+}
+.sliderbtnnext{
+    opacity: 0.9;
+    height: 50px;
+    width: 50px;
+    background: #2f3031;
+    border-radius: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 0px 20px;
+    display: flex;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 40px;
+  
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #897f7f;
+}
+
+.dot-button{
+	position: absolute;
+    bottom: 30px;
+    margin-left: 45%;
+    
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    border: 2px solid #fff;
+    /* background-color: #bbb; */
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: red;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/*----slider caption--------*/
+.slider-caption {
+	position: absolute;
+    max-width: 850PX;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    align-items: center;
+    top: 40%;
+    left: 22%;
+    opacity: 0.7;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+.slider-caption-title{
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif; 
+    line-height: 42px;
+}
+.slider-caption-dis{
+	font-size: 32px;
+    font-family: 'Roboto Slab', serif; 
+    font-weight: 400;
+    line-height: 62px;
+}
+
+/*---------------------------presentaion section------------*/
+.represent{
+	margin-top: 50px;
+	background:#ffffff;
+	margin-bottom: 80px;
+	position: relative;
+}
+.description{
+	display: flex;
+}
+.represnt-text:before{
+	content: "";
+	background: url("../img/background-logo.png");
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 400px;
+	position: absolute;
+	left:  20%;
+	bottom:  6%;
+    z-index: -1;
+	
+	/*transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+	margin: 0 auto;
+	*/
+
+}
+.represnt-text{
+	max-width: 60%;
+    width: 100%;
+    display: inline-block;
+    z-index: 999;
+}
+.descrip-img{
+	margin: 0 auto;
+    max-width: 40%;
+    margin-right: 0;
+    justify-content: right;
+}
+.descrip-img img{
+    height: 100%;
+    width: 100%;
+	
+}
+.represent-title{
+	font-size: 36px;
+    line-height: 42px;
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    position: relative;
+}
+.represent-title::after{
+	content: '';
+	position: absolute;
+	height: 5px;
+	width: 100px;
+	background: red;
+	bottom: -20px;
+	left: 0;
+}
+.represnt-text .descript-text{
+	font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    max-width: 785px;
+}
+.represnt-text .descript-text-2{
+    margin-top: -10px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    max-width: 785px;
+}
+.represnt-text .button{
+	    margin-top: 80px;
+}
+.represnt-text .button a{
+    color: #000;
+    font-size: 18px;
+    border: 2px solid #151515;
+    text-decoration: none;
+    padding: 8px 25px 8px 25px;
+    font-family: 'Roboto Slab', serif; 
+    transition: 0.5s;
+}
+.represnt-text .button a:hover{
+	background: red;
+	color: #fff;
+	border: 1px solid red;
+}
+
+/*-------------------------arias-practice-section--------------------*/
+.arias-practice-setion{
+	background: #f9f9f9;
+	padding: 70px 0;
+}
+.aria-body-first{
+	display: flex;
+	column-gap: 3.3%;
+	text-align: center;
+}
+.first-aria {
+	width: 31%;
+	background: #fff;
+	padding: 30px 25px ;
+
+}
+.two-aria{
+	width: 31%;
+	background: #fff;
+	padding: 30px 25px ;
+}
+.three-aria{
+	width: 31%;
+	background: #fff;
+	padding: 30px 25px ;
+}
+.aria-icon{
+	width: 80px;
+	height: 80px;
+	border: 1px solid red;
+	margin: 0 auto;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.first-aria .area-title h3{
+	font-size: 24px;
+	line-height: 10px;
+	font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+	padding: 16px 0 22px 0;
+
+}
+.two-aria .area-title h3{
+	font-size: 24px;
+	line-height: 10px;
+	font-weight: 700;
+	font-family: 'Roboto Slab', serif;
+	padding: 16px 0 22px 0;
+
+}
+.three-aria .area-title h3{
+	font-size: 24px;
+	line-height: 10px;
+	font-weight: 700;
+	font-family: 'Roboto Slab', serif;
+	padding: 16px 0 22px 0;
+
+}
+.area-title h3{
+    font-size: 24px;
+	line-height: 10px;
+	font-weight: 700;
+	font-family: 'Roboto Slab', serif;
+	padding: 16px 0 22px 0;
+}
+.aria-description p{
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+}
+.aria-btn a{
+	text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+}
+.aria-btn a{
+    display: inline-block;
+    margin-top: 30px;
+    border: 2px solid #151515;
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.aria-btn a:hover{
+    background: red;
+    color: #fff;
+    border: red;
+}
+.aria-heading{
+	text-align: center;
+}
+h2{
+	font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    position: relative;
+}
+h2::after{
+	content: '';
+	position: absolute;
+	height: 5px;
+	width: 100px;
+	background: red;
+	bottom: -20px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.aria-heading p{
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	max-width: 694px;
+	margin: 0 auto;
+	padding-bottom: 38px;
+
+}
+.aria-body-second{
+	margin-top: 40px;
+	display: flex;
+	column-gap: 3.3%;
+	text-align: center;
+}
+.second-aria {
+	width: 31%;
+	background: #fff;
+	padding: 30px 25px ;
+
+}
+
+
+/*---------------------videos aria section---------------*/
+.videos-section{
+	background: #ffffff;
+    padding: 70px 0;
+}
+.videos-arias{
+	display: flex;
+	/*column-gap: 3.3%;*/
+	text-align: center;
+}
+.video-card{
+	width: 21%;
+	background: #bdb4b4;
+	padding: 30px 25px ;
+}
+.col-video {
+   /* display: flex;*/
+    justify-content: center;
+    float: left;
+    margin: 0 1.25% 0 1.25%;
+}
+.col-video:last-child{
+	margin-right: 0;
+}
+.col-video:first-child{
+	margin-left: 0;
+}
+
+video{
+	width: 310px;
+	height: 210px;
+}
+
+
+
+/*============== Contect ============== */
+.contact{
+	position: relative;
+	margin-bottom: 75px;
+}
+.contact-img img{
+	width: 100%;
+}
+.contact-text{
+
+	color: #fff;
+	transform: translate(25%, -180%);
+	position: absolute;
+	margin: 0 auto;
+	text-align: center;
+    margin-top: 3%;
+}
+.contact-text .contact-head{
+	font-size: 48px;
+	font-family: 'Roboto Slab', serif;
+}
+.contact-text .contact-sub{
+	margin-top: 18px;
+	margin-bottom: 35px;
+	font-size: 24px;
+	font-family: 'Roboto Slab', serif;
+}
+.contact .contact-text a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 30px;
+	border: 2px solid #fff;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+}
+.contact .contact-text a:hover{
+	background: rgba(0, 0, 0, 0.7);
+}
+.col-blogs {
+    /*display: flex;*/
+    justify-content: center;
+    float: left;
+    margin: 0 0.5% 0 0%;
+    
+}
+
+.col-blogs:last-child{
+	margin-right: 0;
+}
+.col-video:first-child{
+	margin-left: 0;
+}
+.user-comment{
+	display: flex;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+	
+}
+.user-name{
+	margin-right: 40px;
+}
+.user-name a{
+	color: red;
+}
+.blog-des-head{
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 10px;
+	margin-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+.blog-des-2{
+	margin-bottom: 30px;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+.blog-des a{
+
+	text-decoration: none;
+	color: #000;
+	padding: 10px 30px;
+	border: 2px solid #000;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+    transition: 0.5s;
+}
+.blog-des a:hover{
+    color: #fff;
+    background: red;
+}
+.Blogs{
+	margin-bottom: 130px;
+}
+.blog-image{
+    position: relative;
+}
+.date{
+    background: #000;
+    padding: 20px;
+    position: absolute;
+    height: 100px;
+    width: 95px;
+    color: #fff;
+    align-items: center;
+    margin-left: 30px;
+    text-align: center;
+    bottom: 5px;
+    align-content: space-between;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+
+/*===============  futter section ======================*/
+.futter-section{
+	background: #282628;
+	padding-top: 70px;
+	color: #fff;
+    padding-bottom: 50px;
+}
+.futter-section .col-futter p{
+	    color: #9c9c9c;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+
+}
+.futter-section .about-ul li{
+	border: 1px solid #9c9c9c;
+	
+	padding: 8px 14px;
+	margin-right: 10px;
+	list-style: none;
+	display: inline-block;
+}
+.futter-section .about-ul li:hover{
+	background-color: #fff;	
+    cursor: pointer;
+}
+.futter-section .about-ul li a{
+	color: #9c9c9c;
+	font-family: 'Open Sans', sans-serif;
+}
+.futter-section .about-ul li a:hover{
+	color: red;
+	
+}
+
+.col-futter:first-child{
+	margin-left: 0;
+}
+.col-futter:last-child{
+	margin-right: 0;
+}
+
+.col-futter nav{
+	margin-top: 25px;
+}
+.col-futter nav ul li{
+    list-style: none;
+    border-bottom: 1px solid #9c9c9c;
+    margin-bottom: 10px;
+    line-height: 30PX;
+    width: 90%;
+}
+.col-futter nav ul li a{
+	text-decoration: none;
+	color: #9c9c9c
+}
+.col-futter nav ul li a:hover{
+	color: #fff;
+}
+.col-futter h3{
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+.footer-contact-nav li a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-top: 25px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-contact-nav ul li {
+	list-style: none;
+}
+.footer-contact-nav .footer-address{
+    display: flex;
+    align-items: center;
+}
+.footer-contact-nav .footer-address i{
+    margin-top: 10px;
+}
+
+
+/*Last*/
+.last{
+	background-color: #141314 ;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.last span{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #868686;
+	text-align: center;
+}
