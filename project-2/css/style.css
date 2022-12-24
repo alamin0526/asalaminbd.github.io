@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Raleway:wght@300&display=swap');
+
+.header{
+	background-image: url(../img/background.jpg);
+	height: 100%;
+	background-size: cover;
+	background-attachment: fixed;/* scoler to content up to  background image*/
+	background-position: center;
+}
+.head{
+	background-color: #eaecee;
+}
+.header .nav-item{
+	margin-right: 30px;
+	font-family: 'Alata', sans-serif;
+	font-size: 20px;
+	top: 0px;
+}
+.navbar-light{
+	color: white;
+}
+.menuicon{
+	color: white;
+}
+.imgA{
+	height: 70px;
+	width: 70px;
+}
+.header .name{
+	margin-top: 120px;
+	text-align: center;
+	color: white;
+	
+}
+.header .name span{
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+}
+.header .name .NM{
+	font-family: 'Inconsolata', monospace;
+	font-size: 60px;
+	font-weight: 500px;
+	margin-bottom: -10px;
+}
+.header .name .p{
+	font-family: 'Inconsolata', monospace;
+	font-size: 20px;
+	
+}
+.contact-btn{
+	margin-top: 80px;
+	margin-bottom: 70px;
+}
+.contact-btn{
+	background: #e67e22 ;
+	
+	height: 40px;
+	width: 150px;
+	border-radius: 50px;
+	padding: 0px 10px;
+	transition: 0.3s;
+
+}
+.contact-btn:hover{
+	background:#f39c12;
+	transition: 0.3s;
+	color:#f4f6f6;
+}
+/*------------------------------------------------------ about section------------------------------------*/
+.aboutss{
+	background-color: #eaecee;
+}
+
+.about-section img{
+	height: 440px;
+	padding: 30px 10px;
+}
+.about-section h1{
+	margin-top: 50px;
+	font-size: 50px;
+	font-family: 'Red Rose', cursive;
+	line-height:none;
+
+}
+.about-section .border{
+	border-bottom: solid;
+	width: 230px;
+}
+.about-section p{
+	margin-top: 10px;
+	font-size: 20px;
+	font-family: 'Libre Caslon Display', serif;
+}
+.about-section a{
+	text-decoration: none;
+}
+.about-section button:hover{
+	
+	color: white;
+	transition: 0.2s;
+}
+/*------------------------------- Service-section----------------*/
+.service{
+	background-color: #eaecee;
+}
+
+.Service-section{
+	height: 100%;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	line-height:2;
+}
+
+.boder{
+	margin-bottom: 50px;
+	
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Roboto Slab', serif;
+	line-height:2;
+	position: relative;
+}
+
+.boder::after{
+	content: '';
+	width: 20%;
+	background: #a8c0ff; 
+	background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff); 
+	background: linear-gradient(to right, #3f2b96, #a8c0ff);
+	position: absolute;
+	bottom: 0%; 
+	height: 3px;
+	border-radius: 10px;
+	transition: all 500ms ease;
+	margin-left: -210px;
+}
+.WebDesign i{
+	margin-top: 10px;
+	font-size:60px;
+	margin-left: 150px;
+	
+}
+
+.Wordpress i{
+	margin-top: 10px;
+	font-size:60px;
+	margin-left: 150px;
+	
+}
+.Wordpress {
+	padding: 5px 5px;
+	background-color: #f8f9f9;
+;
+
+}
+.Mswrod i{
+	margin-top: 10px;
+	font-size:60px;
+	margin-left: 150px;
+	
+}
+.WebDesign{
+	background:#FFF;
+	padding: 5px 5px;
+	transition: 0.2s;
+}
+.Service-section{
+ transition: 0.01s;
+}
+.Service-section .card:hover{
+	background: #2874a6;
+	color: white;
+	transition: 0.01s;
+	
+}
+.Service-section .card{
+	background-color: #1b4f72;
+	color: white;
+}
+.Mswrod {
+	background:#FFF;
+	padding: 5px 5px;
+}
+.photosp {
+	background:#FFF;
+	padding: 5px 5px;
+}
+
+.Hardwre {
+	background:#FFF;
+	padding: 5px 5px;
+}
+
+.support{
+	background:#FFF;
+	padding: 5px 5px;
+}
+
+
+.photosp i{
+	margin-top: 10px;
+	font-size:60px;
+	margin-left: 150px;
+	
+}
+.Hardwre i{
+	margin-top: 10px;
+	font-size:60px;
+	margin-left: 150px;
+	
+}
+.support i{
+	margin-top: 10px;
+	font-size:60px;
+	margin-left: 150px;
+		
+}
+.Service-section h3{
+	font-size: 20px;
+	margin-left: 20px;
+	margin-bottom: -10px;
+}
+/*-------------------------------portfolio-section -------------------*/
+.portfolio-section .card img{
+	height: 250px;
+
+}
+.portfolio-section .card{
+margin-bottom: 50px;
+margin-top: 30px;
+margin-left: 25px;
+
+}
+.portfolio{
+
+	background-color:  #eaecee ;
+}
+.portfolio-section{
+	margin-top: 50px;
+	line-height: 2;
+
+}
+.portfolio-section h1{
+	text-align: center;
+	line-height: 2;
+	font-family: 'Roboto Slab', serif;
+	position: relative;
+	margin-bottom: 20px;
+	
+}
+
+
+
+.boder_prtolio::after{
+	content: '';
+	width: 14%;
+	background: #a8c0ff; 
+	background: #fc4a1a;
+	background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a); 
+	background: linear-gradient(to right, #f7b733, #fc4a1a);
+
+
+	position: absolute;
+	bottom: 0%; 
+	height: 3px;
+	border-radius: 10px;
+	transition: all 500ms ease;
+	margin-left: -150px;
+}
+.portfolio-section .p{
+	text-align: center;
+	margin-top: -25px;
+	margin-bottom: 30px;
+	line-height:3;	
+}
+/*------------------------- contact section-------------*/
+.contactS_T{
+	margin-top: 50px;
+	background-color:  #eaecee;
+
+}
+.contact_section{
+	background-image: url(../img/home_sec.jpg);
+	background-size: cover;
+	background-position: center;
+	height:100%;
+	width: 100%;
+	background-attachment: fixed;
+
+
+}
+.contact_section img{
+	height: 250px;
+	margin-top: 100px;
+	margin-left: 50px;
+	width: 250px;
+	
+
+
+}
+.contact_section h1{
+	line-height: 2;
+	text-align: center;
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	position: relative;
+}
+.contact_section h1::after{
+	content: '';
+	width: 18%;
+	background: #005AA7;
+	background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);
+	background: linear-gradient(to right, #FFFDE4, #005AA7); 
+	position: absolute;
+	bottom: 0%; 
+	height: 4px;
+	border-radius: 10px;
+	transition: all 500ms ease;
+	margin-left: -189px;
+}
+.contact_section .icon i{
+	
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 10px;
+}
+.contact_section .icon p{
+	font-size: 15px;
+	margin-bottom: -1px;
+	margin-top: 5px;
+
+}
+.form-group{
+	margin-top: 10px;
+	
+	color: white;
+}
+.forms .btn-info{
+	margin-top: 55px;
+	margin-left: 222px;
+	margin-bottom: 50px;
+}
+
+/*------------------------- fotter sectction-------------*/
+footer{
+	
+	margin-top: 50px;
+	background: #485563;
+	background: -webkit-linear-gradient(to right, #29323c, #485563);
+	background: linear-gradient(to right, #29323c, #485563);
+	text-align: center;
+	
+	
+
+}
+footer i{
+	padding-top: 8px;
+	font-size: 50px;
+	color:#d5dbdb;
+}
+
+footer p{
+	padding-top: 1px;
+	color:#d5dbdb;
+}
