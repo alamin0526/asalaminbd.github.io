@@ -1,0 +1,1378 @@
+/*font-family: 'Montserrat', sans-serif;*/
+
+html{
+	scroll-behavior: smooth;
+}
+*{
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+.row {
+	--bs-gutter-x: 0 rem;
+}
+
+body {
+	background-color: #fff; 
+	color: #000; 
+	word-wrap:break-word; 
+	font-family: 'Montserrat', sans-serif;
+}
+img {
+	max-width: 100%;
+	
+}
+a, a:link {
+	text-decoration: none;
+}
+p{
+	margin-bottom: 0;
+}
+/*.container{
+	max-width: 1200px !important;
+	}*/
+	ul {
+		margin-bottom: 0;
+		padding-left: 0;
+	}
+	.topber-contact ul li{
+		list-style: none;
+		margin-right: 40px;
+	}
+	.topber-contact ul li i{
+		margin-right: 8px;
+		color: #30aad7;
+	}
+	.topber-contact ul li a{
+		color: #fff;
+		font-size: 12px;
+		line-height: 18px;
+		font-weight: 300;
+	}
+	.topber{
+		background-color: #222;
+		color: #fff;
+		padding: 8px 0 12px 0;
+	}
+	.topber-madiya ul li{
+		list-style: none;
+		margin-right: 8px;
+	}
+	.header{
+		height: 92vh;
+
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-image: url('../img/header-bg.png');
+	}
+	.header-content{
+		padding-top: 30px;
+	}
+	.banner-btn a button{
+		font-size: 16px;
+		line-height: 22px;
+		font-weight: 700;
+		color: #fff;
+		padding: 15px 25px;
+		border-radius: 50px;
+		border: none;
+		margin-right: 5px;
+		transition: .4s;
+	}
+	.banner-btn a button:hover{
+		filter: grayscale(100%);
+	}
+	.banner-btn a .btn-1{
+		background-color: #9b95c9;
+	}
+	.banner-btn a .btn-2{
+		background-color: #25b9b1;
+	}
+	.banner-btn a .btn-3{
+		background-color: #54073f;
+		margin-top: 25px;
+	}
+	.banner-title {
+		padding-top: 100px;
+	}
+	.banner-title h1{
+		font-size: 50px;
+		line-height: 56px;
+		font-weight: 700;
+		color: #fff;
+		letter-spacing: 2px;
+		word-spacing: 2px;
+	}
+	.banner-title p{
+		font-size: 18px;
+		line-height: 24px;
+		font-weight: 300;
+		color: #fff;
+	}
+	.featcr p{
+		font-size: 36px;
+		line-height: 42px;
+		font-weight: 700;
+		color: #fff;
+		padding: 50px 0;
+	}
+	.featcr .featcr-1{
+		background-color: #0cdacf;
+	}
+	.featcr .featcr-2{
+		background-color: #1cccc2;
+	}
+	.featcr .featcr-3{
+		background-color: #25b9b1;
+	}
+	.cards{
+		padding: 95px 0
+	}
+	.cards h2{
+		font-size: 48px;
+		line-height: 54px;
+		font-weight: 700;
+		color: #005b8b;
+		max-width: 755px;
+	}
+
+	.cards p{
+		font-size: 18px;
+		line-height: 24px;
+		font-weight: 300;
+		color: #555;
+		margin-bottom: 35px;
+	}
+	.card{
+		border: none;
+	}
+	.card img{
+		margin: 40px 0 30px 0;
+	}
+	.card-body{
+		background-color: #eff9fd;
+		border-radius: 5px;
+	}
+	.card-body h4{
+		font-size: 24px;
+		line-height: 30px;
+		font-weight: 700;
+		color: #555;
+		margin-bottom: 15px;
+	}
+	.card-body p{
+		font-size: 14px;
+		line-height: 20px;
+		font-weight: 300;
+		color: #555;
+		max-width: 335px;
+		padding-bottom: 50px;
+	}
+	.card-n-2{
+		/*margin-left: 20px;*/
+		margin-right:  20px;
+	}
+	.blog{
+		position: relative;
+	}
+	.blog-1-content{
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		max-width: 568px;
+	}
+	.blog-1-content h4{
+		font-size: 48px;
+		line-height: 54px;
+		font-weight: 700;
+		color: #005b8b;
+	}
+	.blog-title{
+		font-size: 24px;
+		line-height: 30px;
+		font-weight: 300;
+		color: #30aad7;
+	}
+	.blog-des{
+		font-size: 18px;
+		line-height: 24px;
+		font-weight: 300;
+		color: #555;
+		margin-bottom: 25px;
+	}
+	.blog-2-content{
+		left: 50%;
+	}
+	.blog-2-content h4{
+				font-size: 48px;
+		line-height: 54px;
+		font-weight: 700;
+		color: #005b8b;
+	}
+
+	.blog-2-content .blog-title{
+		max-width: 400px;
+	}
+
+	.dentist-trust{
+		background-color: #61c2ee;
+		padding: 75px 0 80px 0;
+		color: #fff;
+	}
+	.blog-2-content{
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		max-width: 568px;
+	}
+	.dentist-trust h2{
+		font-size: 48px;
+		line-height: 54px;
+		font-weight: 700;
+	}
+	.dentist-trust p{
+		font-size: 18px;
+		line-height: 24px;
+		font-weight: 300;
+		margin-bottom: 25px;
+	}
+	.dentist-btn a button{
+		color: #005b8b;
+	}
+	.btn-4{
+		background-color: #fff; 
+	}
+	.help-line{
+		padding: 95px 0;
+	}
+	.help-line h2{
+		font-size: 48px;
+		line-height: 54px;
+		font-weight: 700;
+		color: #005b8b;
+	}
+	.help-line p{
+		font-size: 18px;
+		line-height: 24px;
+		font-weight: 300;
+		color: #555;
+		margin-bottom: 35px;
+		max-width: 773px;
+	}
+	.help{
+		margin-top: 40px;
+	}
+	.help-img-1, .help-img-2, .help-img-3{
+		height: 140px;
+		width: 140px;
+		background-color: #eff9fd;
+		border: 2px solid transparent;
+		transition: .4s;
+	}
+	.help-img-1::after{
+		position: absolute;
+		content: "1";
+		height: 30px;
+		width: 30px;
+		border-radius: 100%;
+		background-color: #005b8b;
+		color: #fff;
+		font-size: 24px;
+		line-height: 30px;
+		font-weight: 700;
+		top: 5px;
+		right: 5px;
+		transition: .4s;
+		border: 2px solid #005b8b;
+		display: flex;;
+		justify-content: center;
+		align-items: center;
+	}
+	.help-img-1:hover::after{
+		transform: scale(1.2);
+		color: #005b8b;
+		background-color: #fff;
+		border: 2px solid #005b8b;
+		cursor: pointer;
+	}
+	.help-img-1:hover{
+		border: 2px solid #005b8b;
+		cursor: pointer;
+	}
+	
+
+	.help-img-2::after{
+		position: absolute;
+		content: "2";
+		height: 30px;
+		width: 30px;
+		border-radius: 100%;
+		background-color: #005b8b;
+		color: #fff;
+		font-size: 24px;
+		line-height: 30px;
+		font-weight: 700;
+		top: 5px;
+		right: 5px;
+		transition: .4s;
+		border: 2px solid #005b8b;
+		display: flex;;
+		justify-content: center;
+		align-items: center;
+	}
+	.help-img-2:hover::after{
+		transform: scale(1.2);
+		color: #005b8b;
+		background-color: #fff;
+		border: 2px solid #005b8b;
+		cursor: pointer;
+	}
+	.help-img-2:hover{
+		border: 2px solid #005b8b;
+		cursor: pointer;
+	}
+
+
+	.help-img-3::after{
+		position: absolute;
+		content: "3";
+		height: 30px;
+		width: 30px;
+		border-radius: 100%;
+		background-color: #005b8b;
+		color: #fff;
+		font-size: 24px;
+		line-height: 30px;
+		font-weight: 700;
+		top: 5px;
+		right: 5px;
+		transition: .4s;
+		border: 2px solid #005b8b;
+		display: flex;;
+		justify-content: center;
+		align-items: center;
+	}
+	.help-img-3:hover::after{
+		transform: scale(1.2);
+		color: #005b8b;
+		background-color: #fff;
+		border: 2px solid #005b8b;
+		cursor: pointer;
+	}
+	.help-img-3:hover{
+		border: 2px solid #005b8b;
+		cursor: pointer;
+	}
+	.help h3{
+		margin-top: 25px;
+		font-size: 24px;
+		line-height: 30px;
+		font-weight: 700;
+		color: #555;
+	}
+	.help p{
+		font-size: 14px;
+		line-height: 20px;
+		font-weight: 300;
+		color: #555;
+		max-width: 310px;
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+	.testimonials{
+		background-color: #30aad7;
+		padding: 80px 0;
+		overflow: hidden;
+	}
+	.testimonials h2{
+		font-size: 48px;
+		line-height: 59px;
+		color: #fff;
+		font-weight: 700;
+	}
+	.slider-content p{
+		max-width: 623px;
+		margin: 0 auto;
+	}
+
+
+	.slider{
+		max-width: 700px;
+		margin: 0 auto;
+		padding: 50px 0 45px 0;
+		background-color: #fff;
+		color: #555;
+		border-radius: 10px;
+		/*overflow: hidden;*/
+	}
+	.carousel-control-next-icon{
+		margin-right: -230px;
+	}
+	.carousel-control-prev-icon{
+		margin-left: -230px;
+	}
+	.slider-title ul{
+		list-style: none;
+	}
+	.slider-title{
+		margin-top: 20px;
+	}
+	.slider img{
+		margin-right:  20px;
+	}
+	.slider h6{
+		font-size: 16px;
+		line-height: 22px;
+		font-weight: 700;
+		margin-bottom: 0;
+	}
+	.slider .slider-title{
+		font-size: 16px;
+		line-height: 22px;
+		font-weight: 300;
+		margin-bottom: 0;
+	}
+	.services ul{
+		list-style:  none;
+		margin-left: 20px;
+	}
+	.services ul li{
+		font-size: 18px;
+		line-height: 24px;
+		font-weight: 300;
+		color: #555;
+		margin-bottom: 25px;
+		max-width: 509px;
+		position: relative;
+	}
+	.services ul li::after{
+		position: absolute;
+		content: url("../img/mark.png");
+		left: -25px;
+		top: 0;
+	}
+	.services ul li span{
+		font-weight: 700;
+	}
+	.services{
+		padding: 100px 0;
+	}
+	.services h2{
+		font-size: 48px;
+		line-height: 54px;
+		font-weight: 700;
+		color: #005b8b;
+		margin-bottom: 45px;
+	}
+	.qr{
+		padding: 70px 0 85px 0;
+		background-color: #eff9fd;
+	}
+	.qr h2{
+		font-size: 48px;
+		line-height: 54px;
+		font-weight: 700;
+		color: #005b8b;
+		max-width: 920px;
+	}
+	.qr p{
+		font-size: 18px;
+		line-height: 24px;
+		font-weight: 300;
+		color: #555;
+		max-width: 950px;
+	}
+	.about{
+		background-color: #fff;
+		padding-bottom: 0;
+	}
+	.red{
+		font-size: 14px;
+		line-height: 20px;
+		font-weight: 700;
+		color: #30aad7;
+		margin: 0 auto;
+	}
+	.about-banner{
+		padding: 85px 0 80px 0;
+		background-color: #005b8b;
+		color: #fff;
+		text-align: center;
+	}
+	.about-banner h2{
+		font-size: 48px;
+		line-height: 54px;
+		font-weight: 700;
+	}
+	.about-banner p{
+		font-size: 18px;
+		line-height: 24px;
+		font-weight: 300;
+	}
+
+	.futter{
+		padding: 55px 0 30px 0;
+		background-color: #222;
+		overflow: hidden;
+	}
+	.futter-number-1 h2{
+		font-size: 42px;
+		line-height: 46px;
+		font-weight: 700;
+		color: #fff;
+		text-transform: uppercase;
+		margin-bottom: 25px;
+	}
+	.futter-number-1 ul li{
+		list-style: none;
+		font-size: 14px;
+		list-style: 20px;
+		font-weight: 300;
+		margin-bottom: 12px;
+		/*max-width: 200px;*/
+		color: #fff;
+	}
+	.futter-number-1 ul li i{
+		color: #30aad7;
+		margin-right: 15px;
+	}
+	.futter-number-1 ul li a{
+		color: #fff;
+	}
+	.futter-number-1 ul li span{
+		font-weight: 700;
+	}
+	.futter-number-2 img{
+		margin-right: 25px;
+	}
+	.futter-number-2 p{
+		font-size: 13px;
+		line-height: 19px;
+		font-weight: 300;
+		color: #fff;
+		max-width: 600px;
+	}
+	.developer{
+		background-color: #1b1b1b;
+		padding: 30px 0 25px 0;
+	}
+	.developer p{
+		font-size: 13px;
+		line-height: 19px;
+		font-weight: 300;
+		color: #fff;
+	}
+	.developer a{
+		color: #30aad7;
+		font-weight: 700;
+	}
+	.developer ul li{
+		list-style: none;
+		margin-left: 8px;
+	}
+	.phone-blog{
+		display: none;
+	}
+	.fotter-socket{
+		background-color: #1d1d1d;
+		color: #fff;
+		padding: 30px 0 25px 0;
+	}
+	.fotter-socket ul li{
+		list-style: none;
+	}
+
+	/*============Responsive===================*/
+
+	@media only screen and (max-width: 1201px){
+		.featcr p {
+			font-size: 32px;
+			line-height: 38px;
+		}
+		.banner-title h1 {
+			letter-spacing: 1px;
+			word-spacing: 1px;
+		}
+		.cards p {
+			padding-top: 10px;
+		}
+		.topber-contact ul li {
+			margin-right: 19px;
+		}
+		.featcr p {
+			padding: 45px 0;
+		}
+	}
+	@media only screen and (max-width: 1101px){
+		.featcr p {
+			font-size: 30px;
+			line-height: 36px;
+			padding: 35px 0;
+		}
+	}
+	@media only screen and (max-width: 1025px){
+		.banner-title h1 {
+			font-size: 45px;
+			line-height: 51px;
+			letter-spacing: 0;
+			word-spacing: 0;
+		}
+		.banner-title p {
+			font-size: 18px;
+			line-height: 23px;
+			max-width: 490px;
+		}
+		.cards {
+			padding: 50px 0;
+		}
+		.topber-contact ul li {
+			margin-right: 15px;
+		}
+		.topber-madiya ul li {
+			margin-left: 30px;
+		}
+		.featcr p {
+			font-size: 25px;
+			line-height: 31px;
+		}
+		.featcr p {
+			padding: 35px 0;
+		}
+		.cards h2 {
+			font-size: 40px;
+			line-height: 46px;
+		}
+		.cards p {
+			font-size: 17px;
+		}
+		.blog-2-content h4 {
+			font-size: 40px;
+			line-height: 46px;
+			padding-top: 20px;
+		}
+		.blog-2-content .blog-title {
+			max-width: 360px;
+			word-break: break-all;
+		}
+		.blog-title {
+			font-size: 21px;
+			line-height: 26px;
+		}
+		.banner-btn a button {
+			padding: 10px 20px;
+		}
+		.blog-des {
+			font-size: 16px;
+			line-height: 22px;
+			margin-bottom: 15px;
+			padding-top: 5px;
+		}
+		.blog-1-content h4 {
+			font-size: 40px;
+			line-height: 46px;
+		}
+		.dentist-trust h2 {
+			font-size: 40px;
+			line-height: 46px;
+		}
+		.dentist-trust {
+			padding: 40px 0 40px 0;
+		}
+		.dentist-trust p {
+			max-width: 750px;
+			text-align: center;
+			margin: 0 auto;
+			padding-bottom: 25px;
+			font-size: 16px;
+			line-height: 22px
+		}
+		.help-line h2 {
+			font-size: 40px;
+			line-height: 46px;
+		}
+		.help p {
+			font-size: 14px;
+			line-height: 20px;
+			max-width: 274px;
+			margin-bottom: 50px;
+		}
+		.help-line {
+			padding: 50px 0;
+		}
+		.testimonials h2 {
+			font-size: 40px;
+			line-height: 46px;
+			padding-bottom: 10px;
+		}
+		.testimonials {
+			background-color: #30aad7;
+			padding: 50px 0;
+		}
+		.carousel-control-prev-icon {
+			margin-left: -200px;
+		}
+		.carousel-control-next-icon {
+			margin-right: -200px;
+		}
+		.services {
+			padding: 50px 0;
+		}
+		.services h2 {
+			font-size: 40px;
+			line-height: 46px;
+			margin-bottom: 40px;
+		}
+		.qr {
+			padding: 45px 0 50px 0;
+		}
+		.about {
+			background-color: #fff;
+			padding-bottom: 0;
+		}
+		.qr h2 {
+			font-size: 40px;
+			line-height: 46px;
+			max-width: 894px;
+		}
+		.qr p {
+			font-size: 17px;
+			line-height: 23px;
+			padding-top: 10px;
+		}
+		.about-banner {
+			padding: 50px 0 50px 0;
+		}
+		.about-banner h2 {
+			font-size: 40px;
+			line-height: 46px;
+		}
+		.about-banner p {
+			font-size: 16px;
+			line-height: 22px;
+		}
+		.futter-number-1 h2 {
+			font-size: 40px;
+			line-height: 46px;
+		}
+		.cnt-row-two{
+			position: relative;
+		}
+		.ctn-col-two{
+			position: absolute;
+			left: 55%;
+		}
+		.futter-number-2 p {
+			max-width: 100%;
+			text-align: center;
+		}
+		.brand-img{
+			justify-content: center;
+			padding-top: 30px;
+		}
+		.header {
+			height: 70vh;
+		}
+		.banner-title {
+			padding-top: 100px;
+		}
+
+	}
+	@media only screen and (max-width: 992px){
+			.banner-btn a button {
+				padding: 10px 15px;
+				margin-left: 10px;
+				font-size: 13px;
+				line-height: 19px;
+			}
+			.banner-title h1 {
+				font-size: 35px;
+				line-height: 41px;
+			}
+			.banner-title p {
+				max-width: 382px;
+			}
+			.card-body h4 {
+				font-size: 20px;
+				line-height: 26px;
+			}
+			.futter-number-1 h2 {
+				font-size: 35px;
+				line-height: 41px;
+			}
+			.topber-madiya ul li {
+				margin-left: 20px;
+			}
+			.featcr p {
+				padding: 30px 0;
+			}
+			.cnt-row-two {
+				padding-left: 50px;
+			}
+			.futter-number-1 h2 {
+				font-size: 25px;
+				line-height: 31px;
+				margin-bottom: 10px;
+			}
+			.futter-number-1 ul li {
+				margin-bottom: 10px;
+			}
+			.futter-number-2 {
+				padding-top: 15px;
+			}
+			.header {
+				background-size: cover;
+				height: auto;
+			}
+			.banner-title {
+			padding-top: 50px;
+			padding-bottom: 50px;
+			margin-bottom: 50px;
+		}
+
+
+
+
+	}
+	@media only screen and (max-width: 823px){
+		.featcr p {
+			padding: 27px 0;
+			font-size: 22px;
+			line-height: 28px;
+		}
+	}
+	@media only screen and (max-width: 801px){
+		.cards h2 {
+			font-size: 35px;
+			line-height: 41px;
+		}
+		.blog-1-content h4 {
+			font-size: 32px;
+			line-height: 38px;
+		}
+		.blog-title {
+			font-size: 16px;
+			line-height: 22px;
+		}
+		.blog1-img img{
+			height: 300px;
+		}
+		.blog-des {
+			font-size: 15px;
+			line-height: 21px;
+		}
+		.blog-2-content h4 {
+			font-size: 32px;
+			line-height: 38px;
+			padding-top: 20px;
+		}
+		.dentist-trust h2 {
+			font-size: 35px;
+			line-height: 41px;
+		}
+		.dentist-trust p {
+			max-width: 662px;
+		}
+		.help-line h2 {
+			font-size: 35px;
+			line-height: 41px;
+		}
+		.help-img-1, .help-img-2, .help-img-3 {
+			height: 120px;
+			width: 120px;
+		}
+		.help-img-1::after {
+			height: 25px;
+			width: 25px;
+			font-size: 20px;
+			line-height: 26px;
+		}
+		.help-img-2::after {
+			height: 25px;
+			width: 25px;
+			font-size: 20px;
+			line-height: 26px;
+		}
+		.help-img-3::after {
+			height: 25px;
+			width: 25px;
+			font-size: 20px;
+			line-height: 26px;
+		}
+		.testimonials h2 {
+			font-size: 35px;
+			line-height: 41px;
+			padding-bottom: 10px;
+		}
+		.slider {
+			max-width: 650px;
+			padding: 35px 0 35px 0;
+			border-radius: 10px;
+		}
+		.carousel-control-prev-icon {
+			margin-left: -160px;
+		}
+		.carousel-control-next-icon {
+			margin-right: -160px;
+		}
+		.services h2 {
+			font-size: 35px;
+			line-height: 41px;
+			margin-bottom: 30px;
+		}
+		.services ul li {
+			margin-bottom: 15px;
+		}
+		.qr h2 {
+			font-size: 35px;
+			line-height: 41px;
+			max-width: 894px;
+		}
+		.qr p {
+			font-size: 16px;
+			line-height: 22px;
+		}
+
+	}
+	@media only screen and (max-width: 769px){
+				
+		/*.futter  {
+			overflow: hidden;
+		}*/
+		.header {
+			height: 50vh;
+			background-size: cover;
+		}
+		.banner-title {
+			padding-top: 70px;
+		}
+		.d-flex.justify-content-end {
+			justify-content: center !important;
+		}
+		.topber-contact .d-flex {
+			justify-content: center !important;
+			display: flex;
+		}
+		.banner-title h1 {
+			font-size: 28px;
+			line-height: 34px;
+		}
+		.banner-title p {
+			font-size: 16px;
+			line-height: 22px;
+			max-width: 300px;
+		}
+		.featcr p {
+			padding: 20px 0;
+		}
+		.cards p {
+			padding-top: 0px;
+		}
+
+		.card-body p {
+			padding-bottom: 10px;
+		}
+		.blog-des {
+			font-size: 14px;
+			line-height: 21px;
+			max-width: 450px;
+		}
+		.help p {
+			margin-bottom: 0px;
+		}
+		.help h3 {
+			margin-top: 5px;
+		}
+		.banner-btn {
+			padding-top: 15px;
+		}
+		.ctn-col-two {
+		  position: inherit;;
+		  left: 0;
+		  padding-top: 30px;
+		}
+		.futter{
+			text-align: center;
+		}
+		.map-mark{
+			max-width: 100% !important;
+			margin: 0 auto;
+		}
+		.futter-number-1 img{
+			margin-bottom: 20px;
+		}
+		.align-items-center {
+			align-items: initial !important;
+		}
+
+
+	}
+
+	@media only screen and (max-width: 568px){
+		.banner-btn-head{
+			display: none;
+		}
+		.banner-logo img{
+			max-width: 35%;
+		}
+		.banner-title {
+			padding-top: 15px;
+		}
+		.header {
+			height: 100%;
+			background-size: cover;
+		}
+		.banner-btn {
+			padding-top: 20px;
+		}
+		.banner-btn a .btn-3 {
+			 margin-top: 5px; 
+		}
+		.banner-title h1 {
+			font-size: 25px;
+			line-height: 31px;
+		}
+	.banner-btn a button {
+			padding: 8px 10px;
+			 margin-left: 0; 
+			font-size: 12px;
+			line-height: 18px;
+		}
+		.featcr p {
+			padding: 15px 0;
+			font-size: 20px;
+			line-height: 28px;
+		}
+		.cards h2 {
+			font-size: 30px;
+			line-height: 36px;
+		}
+		.cards p {
+			font-size: 15px;
+			line-height: 21px;
+		}
+		.card-n-2 {
+			margin-right: 0;
+		}
+		.blog-1-content h4 {
+			font-size: 30px;
+			line-height: 36px;
+		}
+		.blog-2-content {
+			left: 35%;
+		}
+		.blog-2-content h4 {
+			font-size: 30px;
+			line-height: 36px;
+			padding-top: 20px;
+		}
+		.blog-des {
+			font-size: 12px;
+			line-height: 18px;
+			max-width: 380px;
+		}
+		.banner-btn {
+			padding-top: 0px;
+		}
+		.dentist-trust h2 {
+			font-size: 30px;
+			line-height: 36px;
+		}
+		.dentist-trust p {
+			max-width: 470px;
+			padding-bottom: 15px;
+			font-size: 14px;
+			line-height: 20px;
+		}
+		.dentist-trust {
+			padding: 30px 0 30px 0;
+		}
+		.cards {
+			padding: 50px 0 40px 0;
+		}
+		.help-line h2 {
+			font-size: 30px;
+			line-height: 36px;
+		}
+		.help-img-1 img, .help-img-2 img, .help-img-3 img{
+			max-width: 50% !important;
+			max-height: 50%;
+		}
+		.align-items-center {
+			align-items: center !important;
+		}
+		.help h3 {
+			font-size: 20px;
+			line-height: 26px;
+		}
+		.testimonials h2 {
+			font-size: 30px;
+			line-height: 36px;
+		}
+		.slider-content p {
+			max-width: 550px;
+			font-size: 14px;
+		}
+		.services h2 {
+			font-size: 30px;
+			line-height: 35px;
+			margin-bottom: 20px;
+		}
+		.services ul li {
+			font-size: 16px;
+			line-height: 22px;
+		}
+		.qr h2 {
+			font-size: 30px;
+			line-height: 36px;
+		}
+		.about-banner h2 {
+			font-size: 35px;
+			line-height: 41px;
+		}
+		.about-banner {
+			padding: 30px 0;
+		}
+		.about-banner p {
+			font-size: 14px;
+			line-height: 20px;
+			padding-bottom: 10px;
+		}
+		.futter-logo-1 img{
+			max-width: 35%;
+		}
+		.futter-number-1 h2 {
+			font-size: 20px;
+			line-height: 26px;
+			margin-bottom: 5px;
+		}
+
+	}
+	@media only screen and (max-width: 481px){
+		.blog-2-content .blog-title {
+			max-width: 276px;
+		}
+		.topber-contact ul li a {
+			font-size: 11px;
+			line-height: 17px;
+		}
+		.slider-content p {
+			max-width: 450px;
+			font-size: 13px;
+		}
+		.all-logo img{
+			max-width: 18%;
+		}
+	}
+
+	@media only screen and (max-width: 446px){
+			.topber-contact ul li a {
+				font-size: 9px;
+				line-height: 15px;
+			}
+			.blog1-img img {
+				height: 320px;
+			}
+			.all-logo img {
+				max-width: 15%;
+			}
+			.cards p {
+			font-size: 15px;
+			line-height: 19px;
+		}
+		.dentist-trust p {
+			max-width: 450px;
+			padding-bottom: 15px;
+			font-size: 12px;
+			line-height: 18px;
+		}
+		.futter-number-2 p {
+			font-size: 11px;
+			line-height: 17px;
+			font-weight: 300;
+		}
+				.cnt-row-two {
+			padding-left: 0;
+		}
+	}
+
+	@media only screen and (max-width: 383px){
+			.topber-contact ul li {
+				margin-right: 10px;
+			}
+			.banner-title {
+				margin-bottom: 0;
+			}
+			.topber-contact ul li {
+			margin-right: 8px;
+		}
+	}
+@media only screen and (max-width: 360px){
+		.topber-contact ul li {
+			margin-right: 5px;
+		}
+		.topber-contact ul li i {
+			margin-right: 5px;
+		}
+}
+
+	@media only screen and (max-width: 321px){
+		.topber-contact ul li {
+			margin-right: 2px;
+		}
+		.topber-contact ul li {
+			list-style: none;
+			margin-right: 0;
+		}
+		.topber-contact ul li a {
+			font-size: 8px;
+			line-height: 14px;
+		}
+		.topber {
+			color: #fff;
+			padding: 8px 0 8px 0;
+		}
+		.header {
+			height: 100%;
+			background-size: cover;
+		}
+		.banner-title h1 {
+			font-size: 20px;
+			line-height: 26px;
+		}
+		.banner-title p {
+			font-size: 14px;
+			line-height: 20px;
+		}
+		.topber-contact ul li i {
+			margin-right: 2px;
+		}
+	.banner-btn a button {
+			padding: 5px 12px;
+			margin-left: 0;
+			font-size: 10px;
+			line-height: 16px;
+		}
+		.featcr p {
+			padding: 10px 0;
+			font-size: 18px;
+			line-height: 24px;
+		}
+		.banner-title {
+			padding-top: 15px;
+			overflow: hidden;
+		}
+		.banner-title {
+			padding-bottom: 0;
+			margin-bottom: 0;
+		}
+		.cards {
+			padding: 30px 0 50px 0;
+		}
+	.cards h2 {
+			font-size: 25px;
+			line-height: 31px;
+		}
+		.cards p {
+			font-size: 13px;
+			line-height: 19px;
+		}
+		.card-body h4 {
+			font-size: 18px;
+			line-height: 24px;
+		}
+		.cards p {
+			font-size: 12px;
+			line-height: 18px;
+		}
+		.blog-1-content h4 {
+			font-size: 22px;
+			line-height: 28px;
+		}
+		.blog-title {
+			font-size: 15px;
+			line-height: 21px;
+		}
+		.blog-des {
+			font-size: 12px;
+			line-height: 18px;
+			max-width: 230px;
+			text-align: start;
+			color: #032f0a;
+		}
+		.blog-2-content h4 {
+			font-size: 22px;
+			line-height: 28px;
+			padding-top: 20px;
+		}
+		.blog-2-content .blog-title {
+			max-width: 189px;
+			font-size: 14px;
+			line-height: 20px;
+		}
+		.dentist-trust h2 {
+			font-size: 22px;
+			line-height: 28px;
+		}
+		.dentist-trust p {
+			max-width: 300px;
+			padding-bottom: 15px;
+			font-size: 12px;
+			line-height: 20px;
+		}
+		.services h2 {
+			font-size: 25px;
+			line-height: 31px;
+			margin-bottom: 20px;
+		}
+		.services ul li {
+			font-size: 14px;
+			line-height: 20px;
+		}
+		.qr {
+			padding: 25px 0 0 0;
+		}
+		.help-line h2 {
+			font-size: 25px;
+			line-height: 31px;
+		}
+		.qr h2 {
+			font-size: 25px;
+			line-height: 31px;
+		}
+		.qr p {
+			font-size: 14px;
+			line-height: 20px;
+		}
+		.banner-btn {
+			padding-bottom: 20px;
+		}
+		.red {
+			font-size: 10px;
+			line-height: 16px;
+		}
+		.about-banner {
+			padding: 20px 0;
+		}
+		.about-banner h2 {
+			font-size: 27px;
+			line-height: 33px;
+		}
+		.about-banner p {
+			font-size: 12px;
+			line-height: 16px;
+			padding-bottom: 10px;
+		}
+		.futter-number-1 ul li {
+			font-size: 12px;
+			line-height:20px;
+		}
+		.futter-number-2 p {
+			font-size: 11px;
+			line-height: 17px;
+		}
+		.futter-number-2 img {
+			margin-right: 10px;
+		}
+
+	}
