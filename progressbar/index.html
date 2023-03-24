@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Progress Bar</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section class="progress-1">
+		<div class="skill">
+		<div class="outer">
+			<div class="inner">
+				<div id="number1">
+					75%
+				</div>
+				
+			</div>
+		</div>
+		
+
+		<!-- ============svg circle======== -->
+	<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+		<defs>
+			<linearGradient id="GradientColor">
+				<stop offset="0%" stop-color="#e91e63" />
+				<stop offset="100%" stop-color="#673ab7" />
+			</linearGradient>
+
+		</defs>
+		<circle cx="80" cy="80" r="70" stroke-linecap="round" class=" circle1">
+	</svg>
+	<div class="title">HTML</div>
+	</div>
+
+	</section>
+
+<!-- =====================2nd part=========== -->
+
+<section class="Progress-2">
+	<div class="skill">
+		<div class="outer">
+			<div class="inner">
+				<div id="number2">
+					95%
+				</div>
+				
+			</div>
+		</div>
+		
+
+		<!-- ============svg circle======== -->
+	<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+		<defs>
+			<linearGradient id="GradientColor">
+				<stop offset="0%" stop-color="#e91e63" />
+				<stop offset="100%" stop-color="#673ab7" />
+			</linearGradient>
+
+		</defs>
+		<circle cx="80" cy="80" r="70" stroke-linecap="round" class=" circle2">
+	</svg>
+	<div class="title">CSS</div>
+	</div>
+</section>
+
+
+<section class="Progress-3">
+	<div class="skill">
+		<div class="outer">
+			<div class="inner">
+				<div id="number3">
+					75%
+				</div>
+				
+			</div>
+		</div>
+		
+
+		<!-- ============svg circle======== -->
+	<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+		<defs>
+			<linearGradient id="GradientColor">
+				<stop offset="0%" stop-color="#e91e63" />
+				<stop offset="100%" stop-color="#673ab7" />
+			</linearGradient>
+
+		</defs>
+		<circle cx="80" cy="80" r="70" stroke-linecap="round" class=" circle3">
+	</svg>
+	<div class="title">Boostraps</div>
+	</div>
+
+
+<!-- =================javascript ============ -->
+<!-- in this javascript change then value of circle as link 65% -->
+<script type="text/javascript">
+	let number1 = document.getElementById("number1");
+	let number2 = document.getElementById("number2");
+	let number3 = document.getElementById("number3")
+
+	let n1 = 65;
+	var n2 = 90;
+	var n3 = 75;
+	let counter = 0;
+	let counter2 = 0;
+	let counter3 = 0;
+	setInterval(() =>{
+		if (counter == n1) {
+			clearInterval();
+		}else{
+			counter +=1;
+			number1.innerHTML = counter + "%";
+		}
+		
+	}, 30)
+	setInterval(() =>{
+		if (counter2 == n2) {
+			clearInterval();
+		}else{
+			counter2 +=1;
+			number2.innerHTML = counter2 + "%";
+		}
+		
+	}, 20)
+
+	setInterval(() =>{
+		if (counter3 == n3) {
+			clearInterval();
+		}else{
+			counter3 +=1;
+			number3.innerHTML = counter3 + "%";
+		}
+		
+	}, 20)
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>
