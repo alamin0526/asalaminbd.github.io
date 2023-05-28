@@ -1,4 +1,0 @@
-max-width=(1410px with padding width)1370px
-padding= 20px
-
-https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp
