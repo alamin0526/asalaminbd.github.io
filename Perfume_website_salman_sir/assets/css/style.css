@@ -1,0 +1,448 @@
+/*font-family: 'Baloo Da 2', cursive;*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+	background:#fff;
+}
+
+
+/*-------------------------------------------hedar-section-------------------------------------------------------------*/
+.hedar-section .row img {
+	width:75%;
+}
+
+.hedar-section .row .fa-regular, .far {
+    font-size: 25px;
+}
+.hedar-section .row .fa-solid, .fas {
+    font-size: 25px;
+}
+/*-------------------------------------------navbar-section-------------------------------------------------------------*/
+.navbar-section	.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    font-family: "Baloo Da 2", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 15px 16px;
+   
+}
+.navbar-section .dropdown-item {
+    color: #205bce;  
+}
+.navbar-section .dropdown-item:hover {
+    color: #ffffff;  
+	background:#205bce;
+}
+
+/*-------------------------------------------banner-section-------------------------------------------------------------*/
+.banner-section  img {
+	max-width:90%;
+	padding-left:25px;
+}
+
+/*-------------------------------------------gallary-section-------------------------------------------------------------*/
+.gallery-section h1 {
+	color:#000000;
+	font-family: "Baloo Da 2",cursive;
+    font-size: 45px;
+    font-weight: 500;
+}
+.g-4, .gy-4 {
+    --bs-gutter-y: 2.5rem;
+}
+#myImg:hover{ 
+	filter: grayscale(100%);
+
+}
+
+/*============================================================new-product-section==============================================*/
+.new-product-section .row img {
+	object-fit: contain;
+    width: 100%;
+    height: 245px;
+    margin: 0px 0px 0px 0px;
+    padding: 15px 15px 15px 15px;
+    background-color: #f1f6f6;
+    border-style: none;
+    border-width: 1px;
+    border-color: #F66E49;
+	max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.new-product-section .row .product-details .content p {
+	font-family: "Baloo Da 2", cursive;
+    font-size: 18px;
+    font-weight: 500;
+    float: center;
+    color: #000000;
+    margin: 20px 0px 5px 0px;
+	padding:0 15px;
+}
+.new-product-section .row .product-details .content {
+	text-align:center;
+}
+.new-product-section .row .product-details .content h3 {
+	font-family: "Baloo Da 2", cursive;
+    font-size: 22px;
+    font-weight: 600;
+	padding: 0px 15px 0px 15px;
+}
+.new-product-section .row .product-details .content button a{
+    color: #fff;
+    text-decoration: none;
+}
+.new-product-section .row .product-details .content button {
+	font-family: "Baloo Da 2", cursive;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #205BCE;
+    border-style: solid;
+	border-width: 0px 0px 0px 0px;
+	margin-top: 15px;
+    margin-bottom: 15px;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+    transition: .4s; 
+    text-decoration: none;
+
+}
+.new-product-section .row .product-details:hover {
+	transform: scale(1.05) translateZ(0);
+	transition:.4s;
+	border:0px solid blue;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.new-product-section .row .product-details .content button a:hover{
+   text-decoration: underline;
+}
+/* ===================Product-list-setion=========================*/
+
+.PL-banner-img img{
+    max-width:100%;
+}
+/*.new-product-section .row .product-details .content button:hover {
+	transform: scale(1.05) translateZ(0);
+	transition:.4s;
+	box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px;
+}
+*/
+/*===========================================================video-section==========================================*/
+.video-section {
+	padding-top:40px;
+}
+.video-section .row video {
+	 height: 472px;
+    object-fit: cover;
+	padding-top:30px;
+}
+.video-section h2 {
+	color: #000000;
+    font-family: "Baloo Da 2", Sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 44px;
+}
+.video-section p {
+	color: #303030;
+    font-family: "Baloo Da 2", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.flex {
+         width: 80%;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+		padding-top:8px;
+  }
+        
+ .flex div {
+            width: 150px;
+            height: 110px;
+        }
+.flex div #num1 ,
+.flex div #num2 ,
+.flex div #num3 {
+	color: #0A5BCE;
+    font-family: "Baloo Da 2", Sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.flex div h3 {
+	 color: #000000;
+    font-family: "Baloo Da 2", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.video-section .button button {
+	font-family: "Baloo Da 2", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #0A5BCE;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #0A5BCE;
+    border-radius: 0px 0px 0px 0px;
+   padding: 15px 30px 10px 20px;
+   transition:.4s;
+}
+.video-section .button button:hover{
+	color: #0A5BCE;
+	background-color:#ffffff;
+}
+
+ 
+/* =========================Register-page============= */
+#reg_title{
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+.login-section .lost-pass{
+    font-size: 13px;
+    color: #31d2f2;
+}
+.login-section button{
+    color: #ffffff;
+}
+.register-section button{
+margin-bottom: 25px;
+}
+
+
+     /*=== Responsive ===*/
+
+@media only screen and (max-width: 1400px) {
+   .col-lg-4 .card{
+    width: 100%;
+  }
+  
+}
+@media only screen and (max-width: 1300px) {
+   .video-section-text{
+    margin-top: -30px;
+  }
+  .futer-section ul li h2{
+    font-size: 25px;
+    line-height: 31px;
+    font-weight: 700;
+  }
+  
+}
+
+@media only screen and (max-width: 1200px) {
+    .product-details h3{
+        font-size: 21px !important;
+    }
+    .new-product-section .row .product-details .content p {
+    font-size: 15px;
+    line-height: 21px;
+    }
+    .futer-section ul li h2 {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+}
+.chocate-section p{
+font-size: 14px;
+}
+}
+@media only screen and (max-width: 1025px){
+    .gallery-section h1{
+        margin-top: 0px !important;
+    }
+    .gallery-pic.text-center.pt-3.mb-5 {
+    margin-bottom: 10px !important;
+}
+.new-product-section h1{
+    margin-top: 0px !important;
+    }
+    
+.prodact-1-heading-part {
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+.one_sub .price h3{
+    font-size: 20px;
+    line-height: 26px;
+}
+}
+@media only screen and (max-width: 992px){
+    .banner-section span{
+        padding-bottom: 0px !important;
+    }
+    .gallery-pic{
+        padding-top: 0px !important;
+    }
+    .video-section {
+    padding-top: 0px;
+}
+.video-section .button {
+    text-align: center;
+}
+.py-5 {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+.chocate-section .container .row .content p {
+  font-size: 13px !important;
+  font-weight: 400;
+  font-family: 'Baloo Da 2', cursive;
+  margin-bottom: 0px !important;
+}
+.socialicon ul{
+    justify-content: center !important;
+}
+.main_wrapper  .price h3{
+    font-family: "Baloo Da 2", Sans-serif;
+    font-size: 18px !important;
+    font-weight: 600;
+}
+.before_section .last-card{
+    margin: 0 auto;
+margin-top: 10px;
+}
+}
+
+@media only screen and (max-width: 768px){
+    .pt-5 {
+    padding-top: 1.9rem !important;
+}
+.before_section .nd-card{
+    margin-top: 10px;
+}
+}
+@media only screen and (max-width: 576px){
+    .hedar-section .col-6 {
+  flex: 0 0 auto;
+  width: 100%;
+  padding: 5px 0 0 0;
+}
+.video-section-text {
+    margin-top: 4px;
+}
+.video-section h2{
+    line-height: 22px;
+}
+.new-product-section h1 {
+    margin-top: 10px !important;
+}
+.chocate-section .container .row .content p {
+    
+    text-align: center;
+}
+.card .contentBox {
+    position: relative;
+    padding: 6px 4px 4px 4px;
+    flex-direction: column;
+    z-index: 2;
+}
+.review_section .row .review_section_title h2 {
+    font-size: 16px;
+}
+.before_section .row .before_section_heading h2 {
+    font-size: 20px;
+ 
+}
+.review_section .rounded {
+    display: block !important;
+}
+.review_section .row {
+    border: 1px solid #205bce;
+    width: 80%;
+    padding: 0 0 0 0;
+}
+.review_section .row .review_section_wrapper {
+    padding: 5px 5px 5px 5px;
+    background: #e5e7ebe7;
+}
+.new_product .main_wrapper{
+    display: block !important;
+}
+.prodact-1-heading-part h1 {
+    font-size: 20px;
+    line-height: 26px;
+}
+.prodact-1-heading-part {
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.futer-section .row p{
+    font-size: 14px !important;
+    line-height: 20px !important;
+}
+.hedar-section .col-3 {
+    width: 50%;
+}
+
+.register-section.mb-5.ms-4 {
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
+}
+.login-section.mb-5.me-4 {
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
+}
+/* .hedar-section .col-2.d-flex.justify-content-end {
+    justify-content: left !important;
+    margin-top: 10px;
+} */
+}
+
+@media only screen and (max-width: 360px){
+    .hedar-section .col-3 {
+    width: 70%;
+}
+.navbar-section .navbar-nav .nav-link {
+    padding: 5px 50px;
+}
+.video-section-text{
+    padding-left: 5px !important;
+}
+.chocate-section .container .row .content p {
+    font-size: 12px !important;
+    
+    line-height: 16px;
+}
+.details_section .row .two .product_details .product_pra p{
+    max-width: 100%;
+    text-align: center;
+    line-height: 28px;
+
+}
+.details_section .row .two .product_details .product_heading h2 {
+  text-align: center;
+  margin-bottom: 14px;
+}
+.before_section .row {
+    width: 95%;
+    padding: 5px 5px 5px 5px;
+}
+.review_section .row {
+    border: 1px solid #205bce;
+    width: 95%;
+    padding: 0 0 0 0;
+}
+.new_product {
+    padding: 20px 0px;
+}
+.new_product .row .main_wrapper .one .one_sub .new_product_img_1, .new_product .row .main_wrapper .two .two_sub .new_product_img_1, .new_product .row .main_wrapper .three .three_sub .new_product_img_1, .new_product .row .main_wrapper .four .four_sub .new_product_img_1 {
+    padding: 0px 0px 0px 0px;
+}
+}

@@ -1,0 +1,62 @@
+::placeholder{
+background-color: #F7F7F7;
+}
+
+.reg{
+	padding: 20px;
+	border: 1px solid black;
+	width: auto;
+	width: 300px;
+
+}
+p{
+	display: block !important;
+}
+
+.registration_page h2{
+	text-align: center;
+	font-size: 45px;
+font-weight: 500;
+font-weight: 700;
+}
+
+.log{
+	padding: 20px;
+	border: 1px solid black;
+	width: auto;
+	width: 300px;
+}
+.log_sec{
+	margin-left: 50px;
+
+}
+.container{
+	display: flex;
+	gap: 80px;
+	margin-top: 100px;
+}
+.log_sec .log .submit input{
+	background-color: #5BC0DE;
+	border: 1px ;
+	border-radius: 3px;
+	padding: 10px;
+}
+.reg_sec .reg .submit input{
+	background-color:#5BC0DE;
+	border: 1px ;
+	border-radius: 3px;
+	padding: 10px;
+}
+.log_sec .log .submit input:hover,
+.reg_sec .reg .submit input:hover{
+	background-color:#5e16af;
+}
+
+
+
+.log_reg{
+	display: flex;
+	justify-content:center;
+	height: 100vh;
+	width: 100%;
+}

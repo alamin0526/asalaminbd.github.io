@@ -1,0 +1,27 @@
+@media only screen and (max-width: 700px) {
+    .log_reg {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .log_sec{
+        margin-left: 0px;
+    }
+    h1{
+        font-size: 30px;
+        justify-content: left;
+        align-items:left;
+    }
+    .log,
+    .reg{
+        padding: 10px;
+        width: 250px;
+    }
+    .container{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+  }

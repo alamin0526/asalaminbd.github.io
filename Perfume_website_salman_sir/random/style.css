@@ -1,0 +1,97 @@
+/* font-family: 'Baloo Da 2', cursive; */
+/* font-family: 'Baloo Da 2', cursive; */
+
+
+
+
+
+
+    /**** review-section *****/
+
+.review-section .container .row .heading .content h1 {
+    font-size: 45px;
+    font-weight: 500;
+    font-family: 'Baloo Da 2', cursive;
+    color: #000;
+}
+.review-section .container .row .content {
+    max-width: 500px;
+    width: 100%;
+    max-width: 345px;
+}
+.review-section .container .row .content h4 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Baloo Da 2', cursive;
+    color: #000;
+}
+.review-section .container .row .content p {
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 500;
+    font-family: 'Baloo Da 2', cursive;
+    color: #000;
+}
+
+
+        /******* location-section *******/
+
+
+.location-section .container .row .content h1 {
+    font-size: 45px;
+    font-weight: 500;
+    font-family: 'Baloo Da 2', cursive;
+}
+.location-section .container .row .content ul li a {
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 500;
+    font-family: 'Baloo Da 2', cursive;
+    color: #000;
+}
+.location-section .container .row .content ul li a span {
+    max-width: 300px;
+    width: 100%;
+}
+
+
+
+
+        /****** futer section ******/
+
+.futer-section .container .row .content ul li h2 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Baloo Da 2', cursive;
+}
+.futer-section .container .row .content ul li p {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Baloo Da 2', cursive;
+}
+.futer-section .container .row .content p {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Baloo Da 2', cursive;
+}
+.futer-section .container .row .header h4 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Baloo Da 2', cursive;
+}
+.futer-section .container .row .content ul li {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+
+
+        /******** chocate section ******/
+
+.chocate-section .container .row .content p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Baloo Da 2', cursive;
+}
