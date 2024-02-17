@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1092px;
+    padding: 0 15px 0 15px;
+    margin: 0 auto;
+}
+.container-small{
+    max-width: 900px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+}
+.nav-logo{
+    width: 50%;
+}
+.navbar nav{
+    width: 50%
+}
+.navbar nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.navbar nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #626262;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    text-align: center;
+}
+.banner-section{
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+.banner-image img{
+    width: 100%;
+}
+.section-subtitle{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    font-weight: 300;
+    font-family: "Ubuntu";
+    margin-bottom: 25px;
+}
+.section-title{
+    font-size: 30px;
+    color: #626262;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    margin-bottom: 30px;
+    display: block;
+}
+.photodiary-description{
+    width: 900px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    margin-bottom: 50px;
+}
+.blog-post{
+    margin-top: 120px;
+}
+.blog-subtitle{
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    font-weight: 300;
+    font-family: "Ubuntu";
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+.blog-title{
+    font-size: 30px;
+    color: #626262;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    margin-top:25px;
+    margin-bottom: 30px;
+}
+.blog-description{
+    max-width: 420px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    margin-bottom: 50px;
+}
+.blog-post-wrapper{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    
+}
+.blog-card img{
+    width: 100%;
+}
+.Newsletter{
+    background: #f0f0f0;
+    padding: 65px 0px 65px 0px;
+}
+.newsletter-wrap h2{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    text-align: center; 
+}
+.newsletter-wrap {
+    display: flex;
+    flex-direction: column;
+}
+input.form {
+    width: 400px;
+    border-bottom: 1px solid #000;
+    border-style: none;
+    border-bottom: 1px solid #000;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    position: relative;
+}
+.input-form-wrap{
+    margin: 0 auto;
+    margin-top: 70px;
+    
+}
+button.submit-btn {
+    border-style: none;
+    position: absolute;
+    margin-left: -28px;
+    margin-top: 10px;
+}
+.learn-more-btn {
+    font-size: 20px;
+    line-height: 24px;
+    color: #626262;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    padding: 20px 30px;
+    background: white;
+    border: 1px solid #626262;
+    margin: 0 auto;
+}
+.footer-menu ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Playfair Display";
+}
+.social-block p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 400;
+    margin-left: 5px;
+    font-family: "Playfair Display";
+}
+.social-block ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    margin-top: 190px;
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+footer span {
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    color: #05bb58;
+}
