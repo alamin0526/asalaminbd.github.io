@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 80%;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+header{
+    background-color: #f6f9f9;
+}
+nav .logo {
+    width: 40%;
+}
+nav {
+    display: flex;
+    align-items: center;
+    padding: 30px 0px;
+}
+nav ul {
+    width: 60%;
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    gap: 40px;
+}
+nav ul li a {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #2d3950;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #5fc3ff;
+    transition: 0.3s;
+}
+/* ----------Banner-------- */
+.banner-content h1{
+    font-size: 120px;
+    letter-spacing: 3px;
+    line-height: 120px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+}
+.banner-image {
+    width: 100%;
+}
+.banner-content h3 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    margin-top: 30px;
+}
+.banner-content button {
+    border-radius: 4px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    background: transparent;
+    border: 2px solid #15a4fa;
+    padding: 18px 30px;
+    text-transform: capitalize;
+    margin-top: 60px;
+}
+.banner-content button:hover{
+    color: #ffffff;
+    background: #15a4fa59;
+    border: 2px solid #15a4fa;
+    transform: scale(1.05);
+    transition: transform 0.5s;
+    transition: 0.3s;
+    
+}
+.banner-section{
+    position: relative;
+}
+.banner-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 50%;
+}
+.banner-content span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background:#15a4fa;
+    margin-top: 20px;
+}
+/* ----- About- section ------- */
+.about-section{
+    padding: 5% 0% 7% 0%;
+    background: #f6f9f9;
+}
+.about-wrapper h2{
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #2d3950;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about-wrapper p{
+font-size: 20px;
+letter-spacing: 1px;
+line-height: 32px;
+color: #999999;
+font-weight: 400;
+font-family: "Lato";
+text-align: center;
+}
